@@ -4,7 +4,6 @@ html, body {
 }
 
 .sky {
-  height: 580px;
   background: #007fd5;
   position: relative;
   overflow: hidden;

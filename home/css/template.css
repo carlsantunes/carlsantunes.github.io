@@ -317,6 +317,7 @@ img.img-full-width {
 #nino-header {
 	position: relative;
 	font-family: 'Montserrat', sans-serif;
+	background: #96daff;
 }
 #nino-header:after {
 	content: "";
@@ -508,7 +509,7 @@ img.img-full-width {
 }
 /* =============== LAYOUT - CONTENT AREA =============== */
 section {
-	padding: 20px 0;
+	padding: 0px 0;
 }
 #nino-slider .nino-sectionHeading {
 	font-size: 60px;
@@ -595,8 +596,7 @@ section {
 
 /* ================= LISBON ======================= */
 #lisbon {
-	padding: 0px 0px 100px 0px;
-	margin-bottom: 200px;
+	padding: 0px 0px 0px 0px;
 	font-weight: 850;
 	font-style: bold;
 	font-family: 'Roboto', sans-serif;
@@ -832,6 +832,7 @@ h2 {
 	font-family: 'Montserrat', sans-serif;
 	color: #FFF;
 	font-weight: 800;
+	text-align: center;
 }
 
 /* =============== SECTION BRAND =============== */
@@ -1288,7 +1289,7 @@ div.pp_default .pp_social {
 }
 @media (max-width: 992px) {
 	section {
-		padding: 45px 0;
+		padding: 0 0;
 	}	
 	/* =============== SECTION TESTIMONIAL =============== */
 	.nino-testimonial {
@@ -1454,7 +1455,7 @@ div.pp_default .pp_social {
 
 @media (max-width: 640px) {
 	section {
-		padding: 30px 0;
+		padding: 0px 0;
 	}
 	.nino-sectionHeading {
 		font-size: 20px;
@@ -1473,9 +1474,11 @@ div.pp_default .pp_social {
 	}
 	#nino-slider .nino-sectionHeading .nino-subHeading {
 		font-size: 75px;
+    	overflow: hidden;
 	}
 	#nino-slider .carousel-inner {
-		height: 768px;
+		height: 50%;
+		padding-bottom: 5%;
 	}
 	#nino-slider .carousel-indicators li .number {
 		display: none;

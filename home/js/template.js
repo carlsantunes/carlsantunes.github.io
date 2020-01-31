@@ -89,7 +89,7 @@ jQuery(function($) {
     	$('#slideshow').each(function() { 
         	var $element = $(this);
         	// subtract some from the height b/c of the padding
-        	var height = $element.height()-500;
+        	var height = $element.height()-300;
         	$(this).css('backgroundPosition', '50% ' + Math.round((height - pos) * velocity) + 'px'); 
     	}); 
 	}
