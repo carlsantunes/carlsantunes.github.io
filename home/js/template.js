@@ -79,21 +79,5 @@ jQuery(function($) {
 		$('html, body').animate({scrollTop : 0},800);
 		return false;
 	});
-
-	/* =============== Parallax (Image moves with scroll) =============== */
-	// Y axis scroll speed
-	var velocity = 0.3;
-
-	function update(){ 
-    	var pos = $(window).scrollTop(); 
-    	$('#slideshow').each(function() { 
-        	var $element = $(this);
-        	// subtract some from the height b/c of the padding
-        	var height = $element.height()-300;
-        	$(this).css('backgroundPosition', '50% ' + Math.round((height - pos) * velocity) + 'px'); 
-    	}); 
-	}
-
-	$(window).bind('scroll', update);
 	
 });

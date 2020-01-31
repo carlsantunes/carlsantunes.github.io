@@ -317,7 +317,6 @@ img.img-full-width {
 #nino-header {
 	position: relative;
 	font-family: 'Montserrat', sans-serif;
-	background: #96daff;
 }
 #nino-header:after {
 	content: "";
@@ -567,7 +566,7 @@ section {
 
 /* =============== COURSE DESCRIPTION ============= */
 #description {
-	background:url(../images/banner/eolicas1.png) no-repeat center center / cover;
+	background:url(../images/banner/eolicas1.png);
 	padding: 20px 16px 0px 16px;
 	font-colour:#fff;
 }
