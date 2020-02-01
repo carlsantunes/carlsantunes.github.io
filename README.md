@@ -1,5 +1,7 @@
 # SC20
 
+NOTA: Survival Guide não carrega para o github porque é maior que 100MB!!!
+
 Bugs:
 1. Otimizar para mobile (variados bugs relacionados com padding e margin);
 2. Na navbar, quando carregamentos em event ela não aparece (e devia de aparecer);
