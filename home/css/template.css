@@ -337,9 +337,9 @@ img.img-full-width {
 
 /* =============== SLIDESHOW ================= */
 #slideshow {
-	background: url(../images/banner/cover1.jpg) no-repeat center center / cover;
+	background: url(../images/genetic-engineering/genes/genes.jpg) no-repeat center center / cover;
 	margin: -20px 0 0 0;
-	height: 500px;
+	height: 600px;
 	background-position: center;
 	display: fixed;
 }
@@ -545,7 +545,7 @@ section {
 	display: block;
 	text-transform: none;
 	font-weight: 400;
-	font-family: 'Kaushan Script', cursive;
+	font-family: 'Montserrat', sans-serif;
 	font-size: 20px;
 	margin-bottom: 20px;
 }
