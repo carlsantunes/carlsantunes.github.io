@@ -822,7 +822,7 @@ h2 {
 
 /* =============== INFORMATION ================= */
 #information {
-	background:url(../images/plant.jpg) no-repeat center center / cover;
+	background: grey no-repeat center center / cover;
 	padding: 10px;
 }
 
@@ -1034,7 +1034,7 @@ h2 {
 }
 #nino-about-us{
 	font-weight: 450;
-	background: url(../images/plant.jpg) ;
+	background: grey ;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
