@@ -69,15 +69,15 @@
 }
 
 .carousel .background.a {
-  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("home/images/genetic-engineering/genes/genes.jpg");
+  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://singularityhub.com/wp-content/uploads/2019/02/digital-blue-dna-biotechnology-future-of-health-shutterstock-750726223-1068x601.jpg");
 }
 
 .carousel .background.b {
-  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://shttps://singularityhub.com/wp-content/uploads/2019/02/digital-blue-dna-biotechnology-future-of-health-shutterstock-750726223-1068x601.jpg");
+  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://online.husson.edu/wp-content/uploads/2018/02/1200x627-CoolInnovations-Header-HUSS-1.jpg");
 }
 
 .carousel .background.c {
-  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("home/images/genetic-engineering/national-cancer-instituto.jpg");
+  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://online.husson.edu/wp-content/uploads/2018/02/1200x627-CoolInnovations-Header-HUSS-1.jpg");
 }
 
 .carousel-fade .carousel-inner .item {
@@ -147,8 +147,8 @@
   padding: 15px 25px;
   font-size: 22px;
   background-image: none;
-  background-color: #FF4000;
-  border-color: #FF4000;
+  background-color: rgb(0, 204, 255);
+  border-color: rgb(0, 204, 255);
   color: #ffffff;
 }
 

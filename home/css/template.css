@@ -337,7 +337,7 @@ img.img-full-width {
 
 /* =============== SLIDESHOW ================= */
 #slideshow {
-	background: url(../images/genetic-engineering/genes/genes.jpg) no-repeat center center / cover;
+	background: rgb(2, 1, 61);
 	margin: -20px 0 0 0;
 	height: 600px;
 	background-position: center;
@@ -466,7 +466,7 @@ img.img-full-width {
 	top: 0;
 	left: 0;
     width: 100%;
-    background: rgba(20, 144, 69, 0.9);
+    background: rgba(27, 122, 182, 0.9);
     color: #000;
     z-index: 2;
     -webkit-animation-duration: .5s;
@@ -538,7 +538,7 @@ section {
 	bottom: 0;
 	width: 50px;
 	height: 2px;
-	background: #149045;
+	background: rgba(27, 122, 182, 0.9);
 	transform: translateX(-50%);
 }
 .nino-sectionHeading .nino-subHeading {
@@ -566,7 +566,7 @@ section {
 
 /* =============== COURSE DESCRIPTION ============= */
 #description {
-	background:url(../images/banner/eolicas1.png);
+	background:rgba(7, 78, 145, 0.904);
 	padding: 20px 16px 0px 16px;
 	font-colour:#fff;
 }
@@ -578,7 +578,7 @@ section {
 
 #description .course-dsc {
 	display: none;
-	background:rgba(6,85,53, 0.7);
+	background:rgba(27, 122, 182, 0.9);
 }
 
 #description .dsc-resume {
@@ -640,7 +640,7 @@ h2 {
 #nino-services .nino-icon {
 	font-size: 30px;
 	margin-right: 20px;
-	color: #9AC442;
+	color: rgba(27, 122, 182, 0.9);
 }
 #nino-services .item:not(:nth-last-child(-n+2)) {
 	border-bottom: 1px solid #e5e5e5;
@@ -822,7 +822,7 @@ h2 {
 
 /* =============== INFORMATION ================= */
 #information {
-	background: grey no-repeat center center / cover;
+	background: rgb(255, 255, 255) no-repeat center center / cover;
 	padding: 10px;
 }
 
@@ -837,7 +837,7 @@ h2 {
 /* =============== SECTION BRAND =============== */
 #nino-brand {
 	padding: 10px 0;
-	background: #e8e8e8;
+	background: #ffffff;
 	text-align: center;
 }
 #nino-brand a {
@@ -912,7 +912,7 @@ h2 {
 /* =============== SECTION OUR TEAM =============== */
 #nino-ourTeam {
 	padding-bottom: 0;
-	background: #e0e0e0 url(../images/logospe.jpg) repeat;
+	background: #EEA225;
 }
 #nino-ourTeam .content .nino-icon {
 	display: inline-block;
@@ -1043,7 +1043,7 @@ h2 {
 #nino-map {
 	padding: 20px 0;
 	background: rgba(27, 122, 182, 0.9);
-	color: #149045;
+	color: rgba(27, 122, 182, 0.9);
 	margin: 0;
 	cursor: pointer;
 }
@@ -1100,7 +1100,7 @@ footer .column {
   flex: 1;
   text-align: center;
   color: #fff;
-  border-bottom: 2px solid #69CD28; 
+  border-bottom: 2px solid rgba(27, 122, 182, 0.9); 
 }
 /* ----------- COL 1 ----------- */
 footer .footerLogo a {
@@ -1235,7 +1235,7 @@ footer .nino-copyright {
 	display: none;
 	cursor: pointer;
 	z-index: 2;
-	background: #149045 url(../images/go-to-top.png) center center no-repeat;
+	background: rgba(27, 122, 182, 0.9) url(../images/go-to-top.png) center center no-repeat;
 }
 #nino-scrollToTop:hover {
 	text-decoration: none;
