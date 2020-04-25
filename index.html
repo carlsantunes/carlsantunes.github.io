@@ -37,7 +37,7 @@
 	<meta name="description" content="">
 	<title>BEST Course Lisbon 2021</title>
 	
-	<!-- favicon -->
+	<!-- BEST LOGOS -->
     <link rel="shortcut icon" href="home/images/ico/favicon.ico">
     <link rel="apple-touch-icon-precomposed" sizes="144x144" href="home/images/ico/BEST_icon_114.png">
     <link rel="apple-touch-icon-precomposed" sizes="114x114" href="home/images/ico/BEST_icon_114.png">
@@ -51,18 +51,19 @@
 	<link rel="stylesheet" type="text/css" href="home/css/prettyPhoto.css" />
 	<link rel="stylesheet" type="text/css" href="home/css/unslider.css" />
 	<link rel="stylesheet" type="text/css" href="home/css/default.css" />	
-	<link rel="stylesheet" type="text/css" href="home/css/ultima.css"/>	
+	<link rel="stylesheet" type="text/css" href="home/css/headbanner.css"/>	
 </head>
 
 <body data-target="#nino-navbar" data-spy="scroll">
 
 
 	<!-- HEADER ----------------------------------------------------------------->
-	<header id="nino-header">
-		<div id="nino-headerInner">					
+	<header id="home">
+
+		<section id="upperbanner">					
 			<nav id="nino-navbar" class="navbar navbar-default" role="navigation">
-				<div style="background: rgba(27, 122, 182, 0.9); padding-bottom: 10px; margin-bottom: -5px; margin-top: -5px;">
-				<div class="container" style="padding-top: 5px">
+				<div class="bar">
+				<div class="container">
 					<!-- Brand and toggle get grouped for better mobile display -->
 					<div class="navbar-header">
 						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#nino-navbar-collapse">
@@ -78,12 +79,13 @@
 					<div class="nino-menuItem pull-right">
 						<div class="collapse navbar-collapse pull-left" id="nino-navbar-collapse">
 							<ul class="nav navbar-nav">
-								<li><a href="#nino-header">Home</a></li>
+								<li><a href="#home">Home</a></li>
 								<li><a href="#description">Event</a></li>
+								<li><a href="#lisbon">About Lisbon</a></li>
 								<li onclick="goTO('./social.html')"><a href="">Previous Editions</a></li>
 								<li onclick="goTO('https://www.best.eu.org/courses')"><a href="">BEST Courses</a></li>
-								<li><a href="#nino-ourTeam">Team</a></li>
-								<li><a href="#nino-about-us">About Us</a></li>
+								<li><a href="#OurTeam">Our Team</a></li>
+								<li><a href="#aboutBest">About Best Lisbon</a></li>
 								<script>
 									function goTO(link){
 										window.open(link, "_blank");
@@ -95,7 +97,7 @@
 					</div>
 				</div><!-- /.container-fluid -->
 			</nav>
-		</div>
+		</section>
 
 	<section id="slideshow">
 		<div class="container-fluid main">
@@ -110,11 +112,12 @@
 			
 			<div class="covertext">
 			  <div class="col-lg-10" style="float:none; margin:0 auto;">
-				<h1 class="title">BioTech</h1>
-				<h3 class="subtitle">Subtitulo</h3>
+				<h1 class="title">PCR and The Diagnosis of Infectious Diseases</h1>
+				<h3 class="subtitle">Best Summer Course 2021</h3>
 			  </div>
+
 			  <div class="col-xs-12 explore">
-				<a href="#"><button type="button" class="btn btn-lg explorebtn">EXPLORE</button></a>
+				<a href="#OurTeam"><button type="button" class="btn btn-lg explore">EXPLORE</button></a>
 			  </div>
 			</div>
 			
@@ -130,19 +133,19 @@
 				<div class="col-md-4" style="text-align: center;">
 					<div class="item">
 						<i class="mdi mdi-calendar nino-icon" style="color:#fff; font-size: 40px;"></i>
-						<p class="bullet-points">July 31st to August 10th </p>
+						<p class="highlights">July 31st to August 10th </p>
 					</div>
 				</div>
 				<div class="col-md-4" style="text-align: center;">
 					<div class="item">
 						<i class="mdi mdi-presentation nino-icon" style="color:#fff; font-size: 40px;"></i>
-						<p class="bullet-points">BioTechnology</p>
+						<p class="highlights">BioTechnology</p>
 					</div>
 				</div>
 				<div class="col-md-4" style="text-align: center;">
 					<div class="item">
 						<i class="mdi mdi-desktop-mac nino-icon" style="color:#fff; font-size: 40px;"></i>
-						<p class="bullet-points" >BEST Course on Technology</p>
+						<p class="highlights" >BEST Course on Technology</p>
 					</div>
 				</div>
 			</div>
@@ -160,7 +163,6 @@
     		</div>
     	</div>
     </section>
-	<!--/#nino-brand-->
 
 	<!-- COURSE DESCRIPTION ---------------------------------------------------------------------------->
 	<section id="description">
@@ -202,112 +204,52 @@
 						<button id="button-info" class="button" onclick="showMoreInfo('dsc-resumed', 'co-dsc', 'button-info')">Course Description</button>
 					</div>
 				</div>
-				<div id="co-dsc" class="course-dsc">
-					<p class="nino-sectionDesc font_list" style="Text-align:justify;">
-						&nbsp &nbsp What do you think about entering the green movement and come up with a millionaire idea /create an innovative idea? Are you ready to became the next xxxx in the European green capital? 
-						<br>&nbsp &nbsp	Two week summer course with the best climate in a beautiful city is a great opportunity to visit the capital of Portugal and maybe become the next revolutionary CEO of a green company.
-						<br>&nbsp &nbsp Join us and improve your skills by learning more about sustainability and entrepreneurship.
-						<br>&nbsp &nbspWe will make sure you get the best inside of the green concept and the business world with the best teachers and successful Portuguese companies.
-						<br>&nbsp &nbsp Would you say you like money? What about the environment? Do you think you have to choose between the 2 of them? Well look again!
-						<br>&nbsp &nbsp Enter Green Entrepreneurship! Nowadays, the effort from humanity to create a green and sustainable economy.
-					</p>
-				</div>
+		
 			</div>
 		</div>
 	</section>
 
 	<!-- ABOUT LISBON ------------------------------------------------------------------------------->
-	<div class="sky">
-		<div class="moon"></div>
-		<section id="lisbon">
-			<h2 class="header" style=" background: rgba(174, 134, 221, 0.9)">Lisbon</h2>
-			<div class="row" style="padding-left: 1%;">
-				<div class="col-md-6" style="max-width: 70%; margin-left: auto; margin-right: auto;">
-					<div class="row" style="padding-bottom: 5%;">
-						<div class="col-md-2">
-							<img src="home/images/ico/checkbox.png">
-						</div>
-						<div class="col-md-8">
-							<p class="bullet-points" style="color: #000;">3rd most hospitable city in the world</p>
-						</div>
-					</div>	
-					<div class="row" style="padding-bottom: 5%;">
-						<div class="col-md-2">
-							<img src="home/images/ico/checkbox.png">
-						</div>
-						<div class="col-md-8">
-							<p class="bullet-points" style="color: #000;">Lots of attractions and places to visit</p>
-						</div>
-					</div>
-					<div class="row" style="padding-bottom: 5%;">
-						<div class="col-md-2">
-							<img src="home/images/ico/checkbox.png">
-						</div>
-						<div class="col-md-8">
-							<p class="bullet-points" style="color: #000;">A safe place to wander around day or night</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-5" style="margin-left: 2.5%; margin-right: 2.5%;">
-					<section id="nino-slider" class="carousel slide container" data-ride="carousel">
-						<ol class="carousel-indicators">
-							<li data-target="#nino-slider" data-slide-to="0" class="active"></li>
-							<li data-target="#nino-slider" data-slide-to="1"></li>
-							<li data-target="#nino-slider" data-slide-to="2"></li>
-							<li data-target="#nino-slider" data-slide-to="3"></li>
-							<li data-target="#nino-slider" data-slide-to="4"></li>
-							<li data-target="#nino-slider" data-slide-to="5"></li>
-							<li data-target="#nino-slider" data-slide-to="6"></li>
-							<li data-target="#nino-slider" data-slide-to="7"></li>
-						</ol>
-						<!-- Wrapper for slides -->
-						<div class="carousel-inner" role="listbox">
-							<div class="item active">
-								<img src="home/images/lisbon/rossio.jpg" style="max-height: 550px; max-width: 550px">
-								<p class="bse_font">Rossio</p>
-							</div>
-							<div class="item">
-								<img src="home/images/lisbon/castelo.jpg" style="max-height: 550px; max-width: 550px">
-								<p class="bse_font">Castelo de São Jorge</p>
-							</div>
-							<div class="item">
-								<img src="home/images/lisbon/parque_eduardo_vii.jpg" style="max-height: 550px; max-width: 550px">
-								<p class="bse_font">Parque Eduardo VII</p>
-							</div>
-							<div class="item">
-								<img src="home/images/lisbon/Mosteiro_Jeronimos.jpg" style="max-height: 550px; max-width: 550px">
-								<p class="bse_font">Mosteiro dos Jerónimos</p>
-							</div>
-							<div class="item">
-								<img src="home/images/lisbon/parque_nacoes.jpg" style="max-height: 550px; max-width: 550px">
-								<p class="bse_font">Parque das Nações</p>
-							</div>
-							<div class="item">
-								<img src="home/images/lisbon/padrao_descobrimentos.jpg" style="max-height: 550px; max-width: 550px">
-								<p class="bse_font">Padrão dos Descobrimentos</p>
-							</div>
-							<div class="item">
-								<img src="home/images/lisbon/Praca_Comercio.jpg" style="max-height: 550px; max-width: 550px">
-								<p class="bse_font">Praça do Comércio</p>
-							</div>
-							<div class="item">
-								<img src="home/images/lisbon/Torre_de_Belem_1.jpg" style="max-height: 550px; max-width: 550px">
-								<p class="bse_font">Torre de Belém</p>
-							</div>
-						</div>
-						<a class="left carousel-control" href="#nino-slider" role="button" data-slide="prev">
-							<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-							<span class="sr-only">Previous</span>
-						</a>
-						<a class="right carousel-control" href="#nino-slider" role="button" data-slide="next">
-							<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-							<span class="sr-only">Next</span>
-						</a>
-					</section>
-				</div>
+	<section id="lisbon">
+		
+		<div class="row">
+			<div class="column">
+				<dfigure class="container">
+					<img src="home/images/Lisbon/torre-belem.jpg" style="width: 90%;"></img>
+					<figurecaption class="bse_font">Tower of Belem</figurecaption>
+				</dfigure>
+
+				<dfigure class="container">
+					<img src="home/images/Lisbon/alfama.jpg" style="width: 90%; "></img>
+					<figurecaption class="bse_font" style="caption-side: bottom;">Alfama district</figurecaption>
+				</dfigure>
 			</div>
-		</section>
-	</div>
+			<div class="column">
+				<dfigure class="container">
+					<img src="home/images/Lisbon/casa-bicos.jpg" style="width: 90%;"></img>
+					<figurecaption class="bse_font">Campo das Cebolas</figurecaption>
+				</dfigure>
+
+				<dfigure class="container">
+					<img src="home/images/Lisbon/ponte-25-abril.jpg" style="width: 90%; "></img>
+					<figurecaption style="caption-side: bottom;" class="bse_font">Bridge 25 de Abril</figurecaption>
+				</dfigure>
+			</div>
+			<div class="column">
+				<dfigure class="container">
+					<img src="home/images/Lisbon/castelo.jpg" style="width: 90%;"></img>
+					<figurecaption class="bse_font">Castle of Saint Jorge</figurecaption>
+				</dfigure>
+
+				<dfigure class="container">
+					<img src="home/images/Lisbon/palacio-pena.jpg" style="width: 90%; "></img>
+					<figurecaption style="caption-side: bottom;" class="bse_font">Pena Palace</figurecaption>
+				</dfigure>
+			</div>
+		</div>
+
+	</section>
+
 
 	<!-- Story About Us ----------------------------------------------------------------------------->
 
@@ -336,7 +278,7 @@
 	
 	
 	 <!-- OUR TEAM ------------------------------------------------------------------------------------>
-	 <section id="nino-ourTeam">
+	 <section id="OurTeam">
 		<div class="container">
 			<h2 class="nino-sectionHeading" style="margin-bottom: 5%;">
 				<span class="nino-subHeading"></span>
@@ -485,7 +427,7 @@
 									<p>antunes.carlos98@gmail.com </p>
 									<!--<a href="https://www.linkedin.com/in/alexandra-martins-7793b3173" class="nino-icon"><i class="mdi mdi-linkedin"></i></a>-->
 								</div>
-								<img class="img" src="home/images/our-team/bernardo.jpg" alt="">
+								<img class="img" src="home/images/our-team/carlos.jpg" alt="">
 							</div>
 						</div>
 						<div class="info">
@@ -518,7 +460,7 @@
 
 	
 	<!-- ABOUT BEST LISBON ------------------------------------------------------------------------------->
-	<section id="nino-about-us">
+	<section id="aboutBest">
 		<h2 class="header">About BEST Lisbon</h2>
 		<div class="container">
 			<div class="row">

@@ -1,5 +1,6 @@
 
-/* ============================== DEFAULT HTML ============================== */
+/* -------------- DEFAULT HTML -------------- */
+
 @import 'https://fonts.googleapis.com/css?family=Montserrat:400,700';
 @import 'https://fonts.googleapis.com/css?family=Roboto:300,400,500,700';
 @import 'https://fonts.googleapis.com/css?family=Kaushan+Script';
@@ -10,6 +11,7 @@ html, body {
 	margin: 0;
 	padding: 0;
 }
+
 body {
 	color: #999;
 	font-size: 13px;
@@ -18,9 +20,11 @@ body {
 	position: relative;
 	font-family: 'Roboto', sans-serif;
 }
+
 article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section,main { 
     display: block;
 }
+
 hr {
 	border-left: none;
 	border-right: none;
@@ -37,7 +41,9 @@ hr {
 	font-size: 20px;
 	font-family: 'Montserrat';
 }
-/* =============== DEFAULT HTML - LINK STYLES =============== */
+
+/* -------------- DEFAULT HTML - LINK STYLES -------------- */
+
 a {
 	text-decoration: none;
 	outline: none;
@@ -48,13 +54,16 @@ a {
 		-ms-transition: all .3s ease-in-out;
 			transition: all .3s ease-in-out;
 }
+
 a:hover {
 	color: #666;
 	text-decoration: none;
 }
+
 a:active {
 	text-decoration: none;
 }
+
 a:focus {
 	outline: none;
 }
@@ -66,81 +75,94 @@ a:visited {
 a img {
 	border: none;
 }
+
 a[class*="glyphicon-"] {
-	text-decoration: none;
-	
-	
+	text-decoration: none;	
 }
 
 
-/* =============== SECTION HORARIO =============== */
+/* -------------- SECTION SCHEDULE -------------- */
+
 #nino-hor {
 	padding:25px 0;
 	background: url(../images/hor+doc/lar.jpg) no-repeat center center / cover;
 }
+
 #nino-hor .nino-sectionHeading1 {
 	text-align: center;
 	color: #FFFFFF;
 	margin: 0;
 	cursor: pointer;
 }
+
 #nino-hor .nino-sectionHeading1 .nino-icon {
 	display: block;
 	margin-bottom: 10px;
 	font-size: 40px;
 }
+
 #nino-hor .horWrap {
 	visibility: hidden;
 	opacity: 0;
 	height: 0 !important;
 	margin-top: 20px;
 }
+
 #nino-hor .horWrap iframe {
 	width: 100%;
 	height: 300px;
 }
+
 #nino-hor.showHor .horWrap {
 	visibility: visible;
 	opacity: 1;
 	height: auto !important;
 /*	border: 2px solid #ff9c00;*/
 }
+
 #nino-hor .nino-locationInfoh {
 	width: 250px;
 }
 
-/* =============== SECTION HORARIO 2 =============== */
+/* -------------- SECTION SCHEDULE 2 -------------- */
+
 #nino-hor2 {
 	padding:25px 0;
 	background: url(../images/hor+doc/cin2.jpg) no-repeat center center / cover;
 }
+
 #nino-hor2 .nino-sectionHeading1 {
 	text-align: center;
 	color: #FFFFFF;
 	margin: 0;
 	cursor: pointer;
 }
+
 #nino-hor2 .nino-sectionHeading1 .nino-icon {
 	display: block;
 	margin-bottom: 10px;
 	font-size: 40px;
 }
+
 #nino-hor2 .hor2Wrap {
 	visibility: hidden;
 	opacity: 0;
 	height: 0 !important;
 	margin-top: 20px;
 }
+
 #nino-hor2 .hor2Wrap iframe {
 	width: 100%;
 	height: 300px;
 }
+
 #nino-hor2.showHor2 .hor2Wrap {
 	visibility: visible;
 	opacity: 1;
 	height: auto !important;
 /*	border: 2px solid #ff9c00;*/
 }
+
 #nino-hor2 .nino-locationInfoh {
 	width: 250px;
 }
@@ -148,88 +170,116 @@ a[class*="glyphicon-"] {
 .img-responsive-full { max-width: 100%; width: 100%; }
 .img-circle { -webkit-border-radius: 50%;-moz-border-radius: 50%;border-radius: 50%; overflow:#FFF;  }
 
-/* =============== DEFAULT HTML - HEADING STYLES =============== */
+/* -------------- DEFAULT HTML - HEADING STYLES -------------- */
+
 h1, h2, h3, h4, h5, h6 {
 	margin: 0px 0 10px;
 	color: #333;
 	text-transform: uppercase;
 	font-family: 'Montserrat', sans-serif;
 }
+
 h1, h2 {
 	font-weight: 300;
 }
+
 h1 {
 	font-size: 2.2em;
 }
 h2 {
 	font-size: 1.8em;
 }
+
 h3 {
 	font-size: 22px;
 }
+
 h4 {
 	font-size: 18px;
 }
+
 h5, h6 {
 	font-size: 1em;
 }
-/* =============== DEFAULT HTML - LIST STYLES =============== */
 
-/* =============== DEFAULT HTML - IMAGES STYLES =============== */
+/* -------------- DEFAULT HTML - IMAGES STYLES -------------- */
 img {
 	border: none;
 	max-width: 100%;
 }
+
 img.image-left {
 	float: left;
 	margin-right: 5px;
 }
+
 img.img-full-width {
 	width: 100%;
 }
-/* =============== PREDEFINED CONTENT ALIGN =============== */
+
+/* -------------- PREDEFINED CONTENT ALIGN -------------- */
+
 .margin-left {
 	margin-left: 1em !important;
 	margin-right: 0;
 }
+
 .margin-right {
 	margin-left: 0;
 	margin-right: 1em !important;
 }
+
 /* ============================== LAYOUT ============================== */
-/* =============== LAYOUT - GENERAL LAYOUT =============== */
+
+/* -------------- LAYOUT - GENERAL LAYOUT -------------- */
+
 .container {
 	position: relative;
+	padding-top: 25px;
 }
+
+.bar {
+	background: rgba(16, 91, 138, 0.9); 
+	padding-bottom: 10px; 
+	margin-bottom: -5px; 
+	margin-top: -5px;
+}
+
 [layout="row"] {
 	display: -webkit-flex;
 	display: -moz-flex;
 	display: -ms-flexbox;
 	display: flex;
 }
+
 .fsr {
 	-webkit-flex-shrink: 0;
 	flex-shrink: 0;
 }
+
 .fg {
 	-webkit-flex-grow: 1;
 	flex-grow: 1;
 }
+
 .fw {
 	flex-wrap: wrap;
 }
+
 .verticalStretch {
 	-ms-flex-align: stretch;
 	-webkit-align-items: stretch;
 	-webkit-box-align: stretch;
 	align-items: stretch;
 }
+
 .verticalCenter {
 	-ms-flex-align: center;
 	-webkit-align-items: center;
 	-webkit-box-align: center;
 	align-items: center;
 }
+
 .nino-btn {
 	display: inline-block;
 	color: #fff;
@@ -240,20 +290,26 @@ img.img-full-width {
 	font-size: 12px;
 	line-height: 100%;
 }
+
 .nino-btn:hover {
 	color: #fff;
 }
+
 .bg-white {
 	background-color: #fff !important;
 }
-/* =============== HOVER EFFECT =============== */
+
+/* -------------- HOVER EFFECT -------------- */
+
 .nino-hoverEffect {
 	text-align: center;
 }
+
 .nino-hoverEffect .item {
 	background: #9AC442;
 	display: inline-block;
 }
+
 .nino-hoverEffect .item .overlay {
 	display: block;
 	position: relative;
@@ -265,6 +321,7 @@ img.img-full-width {
 		-ms-transition: all .3s ease-in-out;
 			transition: all .3s ease-in-out;
 }
+
 .nino-hoverEffect .item .overlay:before {
 	content: "";
 	position: absolute;
@@ -283,13 +340,16 @@ img.img-full-width {
 	background: -o-linear-gradient(top, rgba(20,144,69,0.9), rgba(49, 73, 18, 0.9));
 	background: linear-gradient(to bottom, rgba(20,144,69,129,0.9), rgba(49, 73, 18, 0.9)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
+
 .nino-hoverEffect .item:hover .overlay {
 	left: -10px;
 	top: -10px;
 }
+
 .nino-hoverEffect .item:hover .overlay:before {
 	opacity: 1;	
 }
+
 .nino-hoverEffect .content {
 	position: absolute;
 	left: 0;
@@ -306,15 +366,19 @@ img.img-full-width {
 		-ms-transform: translateY(-50%);
 			transform: translateY(-50%);
 }
+
 .nino-hoverEffect .item:hover .content {
 	opacity: 1;
 }
-/* =============== LAYOUT - HEADER AREA =============== */
-#nino-header {
+
+/* -------------- LAYOUT - HEADER AREA -------------- */
+
+header {
 	position: relative;
 	font-family: 'Montserrat', sans-serif;
 }
-#nino-header:after {
+
+header:after {
 	content: "";
 	position: absolute;
 	left: 0;
@@ -326,16 +390,18 @@ img.img-full-width {
 	background: -o-linear-gradient(top, rgba(20,144,69,0.9), rgba(49, 73, 18,, 0.9));
 	background: linear-gradient(to bottom, rgba(20,144,69,0.9), rgba(49, 73, 18,, 0.9)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
-#nino-headerInner {
+
+#upperbanner {
 	position: relative;
 	z-index: 5;
 }
 
 /* =============== SLIDESHOW ================= */
+
 #slideshow {
 	background: rgb(2, 1, 61);
 	margin: -20px 0 0 0;
-	height: 600px;
+	height: 550px;
 	background-position: center;
 	display: fixed;
 }
@@ -402,6 +468,7 @@ img.img-full-width {
 	margin-right: 3px;
 }
 /* =============== LAYOUT - MENU AREA =============== */
+
 #nino-navbar {
 	background: rgba(255,255,255,0);
 	border: none;
@@ -410,6 +477,7 @@ img.img-full-width {
 	padding-bottom: 5px;
 	font-size: 14px;
 }
+
 #nino-navbar .navbar-brand {
 	background: url(../images/banner/BESTLisbon.png) no-repeat center center / cover; /*logo_BEST_Lisbon_.png*/
 	width: 120px;
@@ -418,6 +486,7 @@ img.img-full-width {
 	font-weight: 700;
 	font-size: 20px;
 }
+
 #nino-navbar .navbar-nav > li > a {
 	color: #fff;				/* cor texto not-hover*/
 	font-weight: 500;
@@ -426,11 +495,13 @@ img.img-full-width {
 	padding: 17px 5px 5px;
 	margin: 0 12px;
 }
+
 #nino-navbar .navbar-nav > .active > a {
 	color: #fff;
 	border-color: #fff;
 	background: none;
 }
+
 #nino-navbar .navbar-nav > li > a:hover,
 #nino-navbar .navbar-nav > a, 
 #nino-navbar .navbar-nav > .active > a:hover {
@@ -438,24 +509,30 @@ img.img-full-width {
 	border-color: #1ac6ff;
 	background: none;
 }
+
 #nino-navbar .nino-menuItem {
 	float: right;
 }
+
 #nino-navbar .nino-iconsGroup li a {
 	border: none;
 	font-size: 18px;
 }
+
 #nino-navbar .navbar-toggle {
 	margin-right: 0;
 	border: none;
 }
+
 #nino-navbar .navbar-toggle:hover,
 #nino-navbar .navbar-toggle:focus {
 	background: none;
 }
+
 #nino-navbar .navbar-toggle .icon-bar {
 	background: #fff;
 }
+
 /* ----------- FIXED NAVBAR WITH ANIMATE ----------- */
 .nino-fixed-nav #nino-navbar {
 	position: fixed;
@@ -502,7 +579,7 @@ img.img-full-width {
         transform: none
     }
 }
-/* =============== LAYOUT - CONTENT AREA =============== */
+/* ----------- LAYOUT - CONTENT AREA ----------- */
 section {
 	padding: 0px 0;
 }
@@ -550,7 +627,7 @@ section {
 	max-width: 950px;
 	margin: 0 auto 20px;
 }
-/* =============== SECTION STORY ABOUT US =============== */
+/* ----------- SECTION STORY ABOUT US ----------- */
 #nino-story .content {
 	font-weight: 700;
 	font-size: 14px;
@@ -560,11 +637,13 @@ section {
 	font-size: 30px;
 }
 
-/* =============== COURSE DESCRIPTION ============= */
+/* ----------- COURSE DESCRIPTION ----------- */
 #description {
-	background:rgba(7, 78, 145, 0.904);
-	padding: 20px 16px 0px 16px;
-	font-colour:#fff;
+	padding: 5px 5px 5px 5px;
+	margin: 20px 50px; 
+	border-radius: 10px;	
+	background-color: rgba(0, 84, 163, 0.349);
+	color:rgb(0, 0, 0);
 }
 
 .font_list {
@@ -589,12 +668,27 @@ section {
 	background: rgba(80,200,120,0.7);
 }
 
-/* ================= LISBON ======================= */
+/* ----------- LISBON ----------- */
+
 #lisbon {
-	padding: 0px 0px 0px 0px;
-	font-weight: 850;
-	font-style: bold;
+	padding: 5px 5px 5px 5px;
+	margin: 20px 50px; 
+	border-radius: 10px;	
+	background-color: rgba(167, 167, 167, 0.219);
 	font-family: 'Roboto', sans-serif;
+	display: flex;
+	flex-direction: row;
+}
+
+.column {
+    float: left;
+    width: 32%;
+}
+
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
 }
 
 h2 {
@@ -608,7 +702,7 @@ h2 {
 	margin-bottom: 10px;
 }
 
-/* =============== SECTION COUNTING =============== */
+/* ----------- SECTION COUNTING ----------- */
 #nino-counting {
 	padding: 0;
 	background: #9AC442;
@@ -632,7 +726,9 @@ h2 {
 	line-height: 100%;
 	margin-bottom: 10px;
 }
-/* =============== SECTION SERVICES =============== */
+
+/* =----------- SECTION SERVICES ----------- */
+
 #nino-services .nino-icon {
 	font-size: 30px;
 	margin-right: 20px;
@@ -647,7 +743,8 @@ h2 {
 	font-weight: 500;
 	font-size: 14px;
 }
-/* =============== SECTION UNIQUE DESIGN =============== */
+
+/* ----------- SECTION UNIQUE DESIGN ----------- */
 #nino-uniqueDesign {
 	padding-bottom: 0;
 	margin-bottom: 30px;
@@ -702,7 +799,8 @@ h2 {
 	margin-left: 140px;
 	width: 170px;
 }
-/* =============== SECTION WHAT WE DO =============== */
+
+/* ----------- SECTION WHAT WE DO ----------- */
 #nino-whatWeDo .panel-group {
 	margin: 0;
 }
@@ -758,7 +856,8 @@ h2 {
 #nino-whatWeDo .mCSB_scrollTools .mCSB_draggerRail {
 	background: #f5f5f5;
 }
-/* =============== SECTION TESTIMONIAL =============== */
+
+/* ----------- SECTION TESTIMONIAL ----------- */
 .nino-testimonial {
 	background: #f8f8f8;
 	padding: 60px 0;
@@ -816,7 +915,8 @@ h2 {
 			transform: translateY(-50%);
 }
 
-/* =============== INFORMATION ================= */
+/* ----------- INFORMATION ----------- */
+
 #information {
 	background: rgb(255, 255, 255) no-repeat center center / cover;
 	padding: 10px;
@@ -825,30 +925,32 @@ h2 {
 .bullet-points {
 	font-size: 24px;
 	font-family: 'Montserrat', sans-serif;
-	color: #FFF;
+	color: rgb(0, 0, 0);
 	font-weight: 800;
 	text-align: center;
 }
 
-/* =============== SECTION BRAND =============== */
+.highlights {
+	font-size: 24px;
+	font-family: 'Montserrat', sans-serif;
+	color: rgb(255, 255, 255);
+	font-weight: 800;
+	text-align: center;
+}
+
+/* ----------- SECTION BRAND ----------- */
+
 #nino-brand {
 	padding: 10px 0;
 	background: #ffffff;
 	text-align: center;
 }
+
 #nino-brand a {
 	display: block;
 }
-/* Efeito de zooming in quando hovered
-#nino-brand a:hover {
-	-webkit-transform: scale(1.1,1.1);
-	   -moz-transform: scale(1.1,1.1);
-		 -o-transform: scale(1.1,1.1);
-		-ms-transform: scale(1.1,1.1);
-			transform: scale(1.1,1.1);
-}
-*/
-/* =============== SECTION PORTFOLIO =============== */
+
+/* ----------- SECTION PORTFOLIO ----------- */
 #nino-portfolio {
 	padding-bottom: 0;
 }
@@ -905,12 +1007,18 @@ h2 {
 	font-style: italic;
 	font-size: 12px;
 }
-/* =============== SECTION OUR TEAM =============== */
-#nino-ourTeam {
-	padding-bottom: 0;
-	background: #EEA225;
+
+/* ----------- SECTION OUR TEAM ----------- */
+
+#OurTeam {
+	padding: 5px 5px 5px 5px;
+	margin: 20px 50px; 
+	border-radius: 10px;	
+	background-color: rgba(182, 109, 0, 0.219);
+	<link rel="stylesheet" type="text/css" href="home/css/headbanner.css"/>	
 }
-#nino-ourTeam .content .nino-icon {
+
+#OurTeam .content .nino-icon {
 	display: inline-block;
 	font-size: 25px;
 	color: #EEA225;
@@ -919,28 +1027,33 @@ h2 {
 	line-height: 100%;
 	z-index:1;
 }
-#nino-ourTeam .content .nino-icon:hover {
+
+#OurTeam .content .nino-icon:hover {
 	color: #000;
 	background: #000;
 	z-index:1;
 }
-#nino-ourTeam .info {
+
+#OurTeam .info {
 	margin-top: 10px;
 	text-align: center;
 }
-#nino-ourTeam .name {
+
+#OurTeam .name {
 	font-size: 18px;
 	font-weight: 525;
 	margin: 0 0 5px;
 	color: #000;
 	border-bottom: 2px solid red;
 }
-#nino-ourTeam .regency {
+
+#OurTeam .regency {
 	font-size: 14px;
 	font-weight: 450;
 	font-style: italic;
 	color: #000;
 }
+
 /* =============== SECTION HAPPY CLIENT =============== */
 #nino-happyClient {
 	background: url(../images/happy-client/bg-happy-client.jpg) no-repeat center center / cover;
@@ -1022,19 +1135,24 @@ h2 {
 	top: 2px;
 }
 
-/* =============== ABOUT US ================== */
+/* --------- ABOUT Best Lisbon ================== */
+
 .header {
 	background: rgba(20,144,69,0.9); 
 	padding: 30px;
 	margin-bottom: 20px;
 }
-#nino-about-us{
+
+#aboutBest{
+	padding: 5px 5px 5px 5px;
+	margin: 20px 50px; 
+	border-radius: 10px;	
+	background-color: rgba(26, 153, 0, 0.274);
 	font-weight: 450;
-	background: grey ;
-	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
 }
+
 /* =============== SECTION MAP =============== */
 #nino-map {
 	padding: 20px 0;
@@ -1070,18 +1188,21 @@ h2 {
 }
 
 /* =============== LAYOUT - FOOTER AREA =============== */
-/* =============== LAYOUT - FOOTER AREA =============== */
+
 footer {
 	padding-top: 50px;
 	background: #333333;
 }
+
 footer .nino-colHeading {
 	margin: 0 0 25px;
 	font-size: 14px;
 }
+
 footer .colInfo {
 	margin-bottom: 30px;
 }
+
 footer .row {
   display: flex;
   flex-direction: row;
