@@ -1,0 +1,52 @@
+body{
+    background: white;
+    padding-top: 35vh;
+  }
+  
+  .cont{
+    display: flex;
+    flex-direction: line;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .transition-btn{
+    margin:25px;
+    width: 200px;
+    height: 100px;
+    font-size: 1.5rem;
+    border: 3px solid #fff;
+    border-radius: 35px 0 35px 0px;
+    background: transparent;
+    color: #fff;
+    font-weight: bold;
+    padding: 15px 25px;
+    transition: border-radius 1.5s, border 1.5s, color 1.5s;
+  }
+  
+  .transition-btn:hover{
+    cursor: pointer;
+    border-radius: 0 35px 0 35px;
+    border: 3px solid rgb(15, 15, 63);
+    color: rgb(15, 15, 63);
+  }
+  
+  .sharp-btn{
+    margin:25px;
+    width: 200px;
+    height: 100px;
+    font-size: 1.5rem;
+    border: 3px solid lightcoral;
+    border-radius: 35px 0 35px 0px;
+    background: transparent;
+    color: lightcoral;
+    font-weight: bold;
+    padding: 15px 25px;
+  }
+  
+  .sharp-btn:hover{
+    cursor: pointer;
+    border-radius: 0 35px 0 35px;
+    border: 3px solid darkcyan;
+    color: darkcyan;
+  }

@@ -643,12 +643,12 @@ section {
 	margin: 20px 50px; 
 	border-radius: 10px;	
 	background-color: rgba(0, 84, 163, 0.349);
-	color:rgb(0, 0, 0);
+	color:#fff;
 }
 
 .font_list {
 	font-size: medium;
-	color: #fff;
+	color: rgb(0, 0, 0);
 }
 
 #description .course-dsc {
@@ -663,9 +663,9 @@ section {
 
 #description .button {
 	font-size: 30px;
-	color: #fff;
+	color: rgba(16, 91, 138, 0.9);
 	font-weight: 750;
-	background: rgba(80,200,120,0.7);
+	background: #fff;
 }
 
 /* ----------- LISBON ----------- */
@@ -1020,8 +1020,8 @@ h2 {
 #OurTeam .content .nino-icon {
 	display: inline-block;
 	font-size: 25px;
-	color: #EEA225;
-	background: #EEA225;
+	color: lightcoral;
+	background: lightcoral;
 	margin: 0 -1px;
 	line-height: 100%;
 	z-index:1;

@@ -52,6 +52,9 @@
 	<link rel="stylesheet" type="text/css" href="home/css/unslider.css" />
 	<link rel="stylesheet" type="text/css" href="home/css/default.css" />	
 	<link rel="stylesheet" type="text/css" href="home/css/headbanner.css"/>	
+	<link rel="stylesheet" type="text/css" href="home/css/faq.css"/>
+	<link rel="stylesheet" type="text/css" href="home/css/dna.css"/>	
+	<link rel="stylesheet" type="text/css" href="home/css/buttons.css"/>
 </head>
 
 <body data-target="#nino-navbar" data-spy="scroll">
@@ -80,11 +83,12 @@
 						<div class="collapse navbar-collapse pull-left" id="nino-navbar-collapse">
 							<ul class="nav navbar-nav">
 								<li><a href="#home">Home</a></li>
-								<li><a href="#description">Event</a></li>
+								<li><a href="#description">Event</a></li>			
 								<li><a href="#lisbon">About Lisbon</a></li>
 								<li onclick="goTO('./social.html')"><a href="">Previous Editions</a></li>
 								<li onclick="goTO('https://www.best.eu.org/courses')"><a href="">BEST Courses</a></li>
 								<li><a href="#OurTeam">Our Team</a></li>
+								<li><a href="#faq">FAQ</a></li>
 								<li><a href="#aboutBest">About Best Lisbon</a></li>
 								<script>
 									function goTO(link){
@@ -112,13 +116,31 @@
 			
 			<div class="covertext">
 			  <div class="col-lg-10" style="float:none; margin:0 auto;">
-				<h1 class="title">PCR and The Diagnosis of Infectious Diseases</h1>
-				<h3 class="subtitle">Best Summer Course 2021</h3>
+				<h1 class="title">Zooming in</h1>
+				<br><h3 class="subtitle">PCR and The Diagnosis of Infectious Diseases</h3>
+		
 			  </div>
-
-			  <div class="col-xs-12 explore">
-				<a href="#OurTeam"><button type="button" class="btn btn-lg explore">EXPLORE</button></a>
-			  </div>
+				   
+			  
+			<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+			<div id="dna">
+				<div></div><div></div><div></div><div></div><div></div>
+				  <div></div><div></div><div></div><div></div><div></div>
+				  <div></div><div></div><div></div><div></div><div></div>
+				  <div></div><div></div><div></div><div></div><div></div>
+				  <div></div><div></div><div></div><div></div><div></div>
+				  <div></div><div></div><div></div><div></div><div></div>
+			</div>
+		
+			  
+			  
+				
+				
+				
+			  
+				
+			  	
+			
 			</div>
 			
 		  </div>
@@ -165,6 +187,7 @@
     </section>
 
 	<!-- COURSE DESCRIPTION ---------------------------------------------------------------------------->
+	
 	<section id="description">
 		<div class="row">
 			<div class="col-md-6" style="max-width: 70%; margin-left: auto; margin-right: auto;">
@@ -196,18 +219,34 @@
 					</div>
 				</div>
 				<div class="row" style="padding-bottom: 1%;">
-					<div class="col-md-2" style="max-height: 10%;">
-						<img src="home/images/ico/Plus.png">
+					<div class="col-md-2" style="max-height: 10%; text-align: center;">
+						<img src="home/images/ico/info.png">
 					</div>
 					<br>
 					<div class="col-md-8" style="padding-left: 12%; padding-bottom: 5%;">
 						<button id="button-info" class="button" onclick="showMoreInfo('dsc-resumed', 'co-dsc', 'button-info')">Course Description</button>
 					</div>
 				</div>
-		
+				<div id="co-dsc" class="course-dsc">
+					<p class="nino-sectionDesc font_list" style="padding: 1%; text-align:left; color: #FFF;">
+						&nbsp &nbsp Let me talk you about the biggest smallest thing in the world. Yes you heard it right, it´s something that even with the most tiny of the dimensions, as a whole universe of information and complexity encrypted in its structure, and it´s called DNA. 
+						<br>&nbsp &nbsp Now imagine that you could amplified that structure just like when you zoom a picture in your phone: that´s what PCR is. PCR stands for Polymerase Chain Reaction, and it allows the amplification of specific fragments of DNA- DNA Targets- leading to the production of millions of copies of that one target sequence. 
+						
+						<br>&nbsp &nbsp But while zooming in in a macroscopic scale it’s a relatively easy experience, in a
+						microscopic level is a whole different story, it takes the participation of an entire
+						team! It is an extraordinary performance where several kinds of enzymes,
+						nucleotides, primers, temperatures and many others come together to achieve
+						one single goal.
+						<br>&nbsp &nbsp If you would like to call them the Avengers of the microscopic world you would be right to do so, because this assembling will grant the identification of pathogenic microorganisms, especially the ones that cause well known infectious diseases.
+						
+						<br>&nbsp &nbsp As an engineer, by integrating this BEST course you will see in first-hand the action of this heroes in the shadows and participate directly in the PCR process. The field of Genetics is waiting for you, the field of Molecular Biology is waiting for you, the microscopic world is waiting for you! 
+						<br>
+						<br>&nbsp &nbsp Don´t let them down!
+					</p>
+				</div>
 			</div>
 		</div>
-	</section>
+	</section><!--/#nino-story-->
 
 	<!-- ABOUT LISBON ------------------------------------------------------------------------------->
 	<section id="lisbon">
@@ -253,34 +292,45 @@
 
 	<!-- Story About Us ----------------------------------------------------------------------------->
 
-	<section id="nino-map">
-    	<div class="container">
-    		<h2 class="nino-sectionHeading" style="margin-bottom:-30px;">
-    			<i class="mdi mdi-calendar-clock nino-icon" style="color:#fff"></i>
-    			<span class="text" style="color:#fff">Schedule</span>
-    			<span class="text" style="display: none; color:#fff">Schedule</span>
-    		</h2>
-    		<div class="mapWrap">
-	    		<img src="home/images/schedule/Schedule.jpg" alt="" >
-	    	</div>
-		</div>
-	</section>
 
-	<section id="nino-story" style="background: #AFCA39; padding: 30px;">
-		<div class="container">
-			<h2 class="" style="margin-bottom:0px; text-align: center; color: #FFFFFF; margin: 0; cursor: pointer; font-weight: 600;">
-				<a href="home/SurvivalGuide.pdf" target="blank"><i class="mdi mdi-clipboard-text nino-icon" style="color:#fff; font-size: 40px; padding-bottom: 5px;"></i>
-				<br><span class="text" style="color:#fff">Survival Guide</span></a>
-			</h2>
-		</div>		
-	</section>
+
+
+	<section id="schedule_survival" style="background-color: rgba(0, 84, 163, 0.349); color: #fff; margin: 20px 50px; border-radius: 10px; ">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 text-center" style="padding-bottom:20px">
+                <h2 class="section-heading">Schedule</h2>
+                <hr class="light my-4">
+                <p class="mb-4">Get to know the schedule!</p>
+                <form method="get" action=home/images/schedule/schedule_2020.png><button class="transition-btn">Open Schedule!</button></form>
+            </div>
+            <div class="col-lg-6 text-center">
+                <h2 class="section-heading">Survival Guide</h2>
+                <hr class="light my-4">
+                <p class="mb-4">Don't get lost!</p>
+				<form method="get" action="home/SurvivalGuide.pdf"><button class="transition-btn">Open Survival Guide!</button></form>
+            </div>
+        </div>
+
+    </div>
+</section>
+	
+
+	
+	
+	
+	
+
+
+
+	  
 	
 	
 	
 	 <!-- OUR TEAM ------------------------------------------------------------------------------------>
-	 <section id="OurTeam">
+	 <section id="OurTeam" style="background-color: #fff ">
 		<div class="container">
-			<h2 class="nino-sectionHeading" style="margin-bottom: 5%;">
+			<h2 class="nino-sectionHeading" style="margin-bottom: 5%; ">
 				<span class="nino-subHeading"></span>
 				<br>Meet the BEST Team!
 			</h2>
@@ -321,144 +371,191 @@
 							</div>
 				</div>
 				<br>
+				<!------------------------------ Segunda fila de fotos -->
 				<div class="row nino-hoverEffect">
 					<div class="col-md-1 col-sm-1" style="padding: 6%;"></div>
-							<div class="col-md-3 col-sm-3">
+					<div class="col-md-3 col-sm-3">
+						<div class="item">
+							<div class="overlay" href="#">
+								<div class="content">
+									<p>@gmail.com</p>
+									<!--<a href="https://www.linkedin.com/in/ivanzarro" class="nino-icon"><i class="mdi mdi-linkedin"></i></a>-->
+									</div>
+									<img class="img" src="home/images/our-team/ricardo_30.jpg" alt="">
+								</div>
+							</div>
+							<div class="info">
+								<h4 class="name" style="border-color: green;">Joana Teixeira Figueira</h4>
+								<span class="regency">Design Responsible</span>
+							</div>
+					</div>
+					<!---------------------------------------------------------------------------------->
+					<div class="col-md-3 col-sm-3">
+						<div class="item">
+							<div class="overlay" href="#">
+								<div class="content">
+									<p>@gmail.com</p>
+									<!--<a href="https://www.linkedin.com/in/ivanzarro" class="nino-icon"><i class="mdi mdi-linkedin"></i></a>-->
+									</div>
+									<img class="img" src="home/images/our-team/ricardo_30.jpg" alt="">
+								</div>
+							</div>
+							<div class="info">
+								<h4 class="name" style="border-color: green;">Maria Macedo</h4>
+								<span class="regency">Academic Responsible</span>
+							</div>
+					</div>
+					<!---------------------------------------------------------------------------------->
+					<div class="col-md-3 col-sm-3">
 								<div class="item">
 									<div class="overlay" href="#">
 										<div class="content">
-											<p> @gmail.com </p>
+											<p> @tecnico.ulisboa.pt </p>
 											<!--<a href="https://www.linkedin.com/in/magalhães-rui/" class="nino-icon"><i class="mdi mdi-linkedin"></i></a>-->
 										</div>
-										<img class="img" src="home/images/our-team/susana.jpg" alt="">
+										<img class="img" src="home/images/our-team/ivan_30.jpg" alt="">
 									</div>
 								</div>
 								<div class="info">
-									<h4 class="name" style="border-color: red;">Joana Teixeira Figueira</h4>
-									<span class="regency">Design Responsible</span>
+									<h4 class="name" style="border-color: green;">Guilherme Monteiro</h4>
+									<span class="regency">CR Responsible</span>
 								</div>
 							</div>
-					<!---------------------------------------------------------------------------------->
-						<div class="col-md-3 col-sm-3">
-							<div class="item">
-								<div class="overlay" href="#">
-									<div class="content">
-										<p>@gmail.com</p>
-										<!--<a href="https://www.linkedin.com/in/ivanzarro" class="nino-icon"><i class="mdi mdi-linkedin"></i></a>-->
+				</div>
+				<br>
+				<!------------------------------ Terceira fila de fotos -->
+				<div class="row nino-hoverEffect">
+					<div class="col-md-1 col-sm-1" style="padding: 6%;"></div>
+					<div class="col-md-3 col-sm-3">
+						<div class="item">
+							<div class="overlay" href="#">
+								<div class="content">
+									<p>@gmail.com</p>
+									<!--<a href="https://www.linkedin.com/in/ivanzarro" class="nino-icon"><i class="mdi mdi-linkedin"></i></a>-->
 									</div>
-									<img class="img" src="home/images/our-team/maria.jpg" alt="">
-								</div>
-							</div>
-							<div class="info">
-								<h4 class="name" style="border-color: gold;">Maria Macedo</h4>
-								<span class="regency">Academic Responsible</span>
-							</div>
-						</div>
-						<!---------------------------------------------------------------------------------->
-						<div class="col-md-3 col-sm-3">
-							<div class="item">
-								<div class="overlay" href="#">
-									<div class="content">
-										<p>@gmail.com</p>
-										<!--<a href="https://www.linkedin.com/in/ivanzarro" class="nino-icon"><i class="mdi mdi-linkedin"></i></a>-->
-									</div>
-									<img class="img" src="home/images/our-team/maria.jpg" alt="">
-								</div>
-							</div>
-							<div class="info">
-								<h4 class="name" style="border-color: gold;">Guilherme Monteiro</h4>
-								<span class="regency">CR Responsible</span>
-							</div>
-						</div>
-						<!---------------------------------------------------------------------------------->
-						<div class="col-md-3 col-sm-3">
-							<div class="item">
-								<div class="overlay" href="#">
-									<div class="content">
-										<p>@gmail.com</p>
-										<!--<a href="https://www.linkedin.com/in/ivanzarro" class="nino-icon"><i class="mdi mdi-linkedin"></i></a>-->
-									</div>
-									<img class="img" src="home/images/our-team/maria.jpg" alt="">
+									<img class="img" src="home/images/our-team/ricardo_30.jpg" alt="">
 								</div>
 							</div>
 							<div class="info">
 								<h4 class="name" style="border-color: gold;">Leonor Godinho</h4>
 								<span class="regency">Logistics Responsible</span>
 							</div>
-						</div>
-						<!---------------------------------------------------------------------------------->
-						<div class="col-md-3 col-sm-3">
-							<div class="item">
-								<div class="overlay" href="#">
-									<div class="content">
-										<p>@gmail.com</p>
-										<!--<a href="https://www.linkedin.com/in/ivanzarro" class="nino-icon"><i class="mdi mdi-linkedin"></i></a>-->
+					</div>
+					<!---------------------------------------------------------------------------------->
+					<div class="col-md-3 col-sm-3">
+						<div class="item">
+							<div class="overlay" href="#">
+								<div class="content">
+									<p>@gmail.com</p>
+									<!--<a href="https://www.linkedin.com/in/ivanzarro" class="nino-icon"><i class="mdi mdi-linkedin"></i></a>-->
 									</div>
-									<img class="img" src="home/images/our-team/maria.jpg" alt="">
+									<img class="img" src="home/images/our-team/ricardo_30.jpg" alt="">
 								</div>
 							</div>
 							<div class="info">
 								<h4 class="name" style="border-color: gold;">Lucas Pinto</h4>
 								<span class="regency">PR Responsible</span>
 							</div>
-						</div>
-
-						<!---------------------------------------------------------------------------------->
-						<div class="col-md-3 col-sm-3">
-							<div class="item">
-								<div class="overlay" href="#">
-									<div class="content">
-										<p>@gmail.com</p>
-										<!--<a href="https://www.linkedin.com/in/ivanzarro" class="nino-icon"><i class="mdi mdi-linkedin"></i></a>-->
+					</div>
+					<!---------------------------------------------------------------------------------->
+					<div class="col-md-3 col-sm-3">
+								<div class="item">
+									<div class="overlay" href="#">
+										<div class="content">
+											<p> @tecnico.ulisboa.pt </p>
+											<!--<a href="https://www.linkedin.com/in/magalhães-rui/" class="nino-icon"><i class="mdi mdi-linkedin"></i></a>-->
+										</div>
+										<img class="img" src="home/images/our-team/ivan_30.jpg" alt="">
 									</div>
-									<img class="img" src="home/images/our-team/maria.jpg" alt="">
+								</div>
+								<div class="info">
+									<h4 class="name" style="border-color: gold;">Manuel Fialho</h4>
+									<span class="regency">Participants Responsible</span>
+								</div>
+							</div>
+				</div>
+				<br>
+				<!------------------------------ Quarta fila de fotos -->
+				<div class="row nino-hoverEffect">
+					<div class="col-md-3 col-sm-3" style="padding: 6%;"></div>
+					<div class="col-md-3 col-sm-3">
+						<div class="item">
+							<div class="overlay" href="#">
+								<div class="content">
+									<p>antunes.carlos98@gmail.com</p>
+									<!--<a href="https://www.linkedin.com/in/ivanzarro" class="nino-icon"><i class="mdi mdi-linkedin"></i></a>-->
+									</div>
+									<img class="img" src="home/images/our-team/carlos.jpg" alt="">
 								</div>
 							</div>
 							<div class="info">
-								<h4 class="name" style="border-color: gold;">Manuel  Fialho</h4>
-								<span class="regency">Participants Responsible</span>
+								<h4 class="name" style="border-color: blue;">Carlos Antunes</h4>
+								<span class="regency">Information Technologies Responsible</span>
 							</div>
-						</div>
+					</div>
+					
+					
 					<!---------------------------------------------------------------------------------->
 					<div class="col-md-3 col-sm-3">
-						<div class="item">
-							<div class="overlay" href="#">
-								<div class="content">
-									<p>antunes.carlos98@gmail.com </p>
-									<!--<a href="https://www.linkedin.com/in/alexandra-martins-7793b3173" class="nino-icon"><i class="mdi mdi-linkedin"></i></a>-->
+								<div class="item">
+									<div class="overlay" href="#">
+										<div class="content">
+											<p> filipaavv1@gmail.com </p>
+											<!--<a href="https://www.linkedin.com/in/magalhães-rui/" class="nino-icon"><i class="mdi mdi-linkedin"></i></a>-->
+										</div>
+										<img class="img" src="home/images/our-team/filipa.jpg" alt="">
+									</div>
 								</div>
-								<img class="img" src="home/images/our-team/carlos.jpg" alt="">
+								<div class="info">
+									<h4 class="name" style="border-color: blue;">Filipa Costa</h4>
+									<span class="regency">Information Technologies Responsible</span>
+								</div>
+					
 							</div>
-						</div>
-						<div class="info">
-							<h4 class="name" style="border-color: blue;">Carlos Antunes</h4>
-							<span class="regency">Information Technologies Responsible</span>
+				
+				
 						</div>
 					</div>
 				</div>
-					<!---------------------------------------------------------------------------------->
-					<div class="col-md-3 col-sm-3">
-						<div class="item">
-							<div class="overlay" href="#">
-								<div class="content">
-									<p>@gmail.com </p>
-									<!--<a href="https://www.linkedin.com/in/alexandra-martins-7793b3173" class="nino-icon"><i class="mdi mdi-linkedin"></i></a>-->
-								</div>
-								<img class="img" src="home/images/our-team/bernardo.jpg" alt="">
-							</div>
-						</div>
-						<div class="info">
-							<h4 class="name" style="border-color: blue;">Filipa Costa</h4>
-							<span class="regency">Information Technologies Responsible</span>
-						</div>
-					</div>
-				</div>
-				<br>		
+				<br>																	
 			</div>
 		</div>
-	</section>
+		<br>		
+	</div>
+</div>
+</section>	
+												
 
 	
+<!-- FAQ ------------------------------------------------------------------------------->
+<section id="faq" style=" margin: 20px 50px;   ">
+
+	<div class="faq-header">Frequently Asked Questions</div>
+
+<div class="faq-content">
+  <div class="faq-question">
+    <input id="q1" type="checkbox" class="panel">
+    <div class="plus">+</div>
+    <label for="q1" class="panel-title">What is the meaning of life?</label>
+    <div class="panel-content">42</div>
+  </div>
+  
+  <div class="faq-question">
+    <input id="q2" type="checkbox" class="panel">
+    <div class="plus">+</div>
+    <label for="q2"  class="panel-title">How much wood would a woodchuck chuck?</label>
+    <div class="panel-content">A woodchuck would chuck all the wood he could chuck, if a woodchuck could chuck wood!</div>
+  </div>
+  
+  <div class="faq-question">
+    <input id="q3" type="checkbox" class="panel">
+    <div class="plus">+</div>
+    <label for="q3" class="panel-title">What happens if Pinocchio says, "my nose will grow now"?</label>
+    <div class="panel-content">Certain questions are better left &nbsp; <a href="https://en.wikipedia.org/wiki/The_Unanswered_Question" target="_blank">unanswered</a></div>
+  </div>
+</div>
+</section>
+
 	<!-- ABOUT BEST LISBON ------------------------------------------------------------------------------->
 	<section id="aboutBest">
 		<h2 class="header">About BEST Lisbon</h2>
