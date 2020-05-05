@@ -479,15 +479,15 @@ header:after {
 	font-size: 14px;
 }
 
-#nino-navbar .navbar-brand {
+/*#nino-navbar .navbar-brand {
 	background: url(../images/banner/BESTLisbon.png) no-repeat center center  / cover; /*logo_BEST_Lisbon_.png*/
-	background-size: 65px;
+/*	background-size: 65px;
 	width: 120px;
 	height: 30px;
 	color: #fff;
 	font-weight: 700;
 	font-size: 14px;
-}
+}*/
 
 #nino-navbar .navbar-nav > li > a {
 	color: #fff;				/* cor texto not-hover*/
@@ -552,6 +552,7 @@ header:after {
     -webkit-animation-name: fadeInDown;
     		animation-name: fadeInDown;
 }
+
 .nino-fixed-nav #nino-navbar .navbar-nav > li > a:hover,
 .nino-fixed-nav #nino-navbar .navbar-nav > .active > a, 
 .nino-fixed-nav #nino-navbar .navbar-nav > .active > a:hover {
@@ -572,6 +573,7 @@ header:after {
         transform: none
     }
 }
+
 @keyframes fadeInDown {
     0% {
         opacity: 0;

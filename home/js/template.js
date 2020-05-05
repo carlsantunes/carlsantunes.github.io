@@ -36,7 +36,10 @@ jQuery(function($) {
 			$('body').css('padding-top', 0);
 		}
 	});
-	
+
+
+
+
 	/* =============== ISOTOP =============== */	
 	$(window).load(function(){
 		$portfolio = $('.nino-portfolioItems');
