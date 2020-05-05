@@ -84,12 +84,13 @@
 							<ul class="nav navbar-nav">
 								<li><a href="#home">Home</a></li>
 								<li><a href="#description">Event</a></li>			
-								<li><a href="#lisbon">About Lisbon</a></li>
-								<li onclick="goTO('./social.html')"><a href="">Previous Editions</a></li>
-								<li onclick="goTO('https://www.best.eu.org/courses')"><a href="">BEST Courses</a></li>
-								<li><a href="#OurTeam">Our Team</a></li>
+								<li><a href="#lisbon">Lisbon</a></li>
+								<li><a href="#schedule_survival">Schedule & Guide</a></li>
 								<li><a href="#faq">FAQ</a></li>
-								<li><a href="#aboutBest">About Best Lisbon</a></li>
+								<li><a href="#OurTeam">Team</a></li>
+								<li><a href="#aboutBest">Best Lisbon</a></li>
+								<li onclick="goTO('./social.html')"><a href="">Previous Editions</a></li>
+								<li onclick="goTO('https://www.best.eu.org/courses/list.jsp')"><a href="">Apply</a></li>
 								<script>
 									function goTO(link){
 										window.open(link, "_blank");
@@ -167,7 +168,7 @@
 				<div class="col-md-4" style="text-align: center;">
 					<div class="item">
 						<i class="mdi mdi-desktop-mac nino-icon" style="color:#fff; font-size: 40px;"></i>
-						<p class="highlights" >BEST Course on Technology</p>
+						<p class="highlights" onclick="goTO('https://www.best.eu.org/courses/list.jsp')">BEST Course on Technology</p>
 					</div>
 				</div>
 			</div>
@@ -190,47 +191,57 @@
 	
 	<section id="description">
 		<div class="row">
+			<h2 class="header" style="background:rgba(12, 139, 223, 0.726); border-radius: 200px;">Event theme</h2>
+			
 			<div class="col-md-6" style="max-width: 70%; margin-left: auto; margin-right: auto;">
+				
 				<div id="dsc-resumed" class="dsc-resume">
-					<div class="row" style="padding-bottom: 1%;">
+					
+					<div class="row" style="padding-bottom: 1%; padding-top: 5%">
+						
 						<div class="col-md-2" style="max-height: 10%;">
-							<img src="home/images/ico/idea.png">
+							<img src="home/images/ico/dna_emoji.png">
 						</div>
 						<div class="col-md-8">
-							<p class="bullet-points" style="padding-top: 8%;">Create an innovative idea</p>
+							<p class="bullet-points" style="padding-top: 8%;">Zoom in to macroscopic scale!</p>
 						</div>
 					</div>	
-					<div class="row" style="padding-bottom: 1%;">
+					<div class="row" style="padding-bottom: 1%; padding-top: 3%">
 						<div class="col-md-2" style="max-height: 10%;">
-							<img src="home/images/ico/leaf.png">
+							<img src="home/images/ico/scientist_emoji.png">
 						</div>
 						<br>
 						<div class="col-md-8">
-							<p class="bullet-points">Lisbon, the European green capital</p>
+							<p class="bullet-points">Learn more about Polymerase Chain Reaction</p>
 						</div>
 					</div>
-					<div class="row" style="padding-bottom: 1%;">
+					<div class="row" style="padding-bottom: 1%; padding-top: 3%">
 						<div class="col-md-2" style="max-height: 10%;">
-							<img src="home/images/ico/recycle.png">
+							<img src="home/images/ico/airplane_emoji.png">
 						</div>
 						<div class="col-md-8">
-							<p class="bullet-points">Learn more about sustainability and entrepreneurship</p>
+							<p class="bullet-points">Come meet Lisbon!</p>
 						</div>
 					</div>
 				</div>
 				<div class="row" style="padding-bottom: 1%;">
-					<div class="col-md-2" style="max-height: 10%; text-align: center;">
-						<img src="home/images/ico/info.png">
-					</div>
 					<br>
-					<div class="col-md-8" style="padding-left: 12%; padding-bottom: 5%;">
+					<div class="col-md-8" style="padding-left: 2%; padding-bottom: 5%;">
 						<button id="button-info" class="button" onclick="showMoreInfo('dsc-resumed', 'co-dsc', 'button-info')">Course Description</button>
 					</div>
 				</div>
 				<div id="co-dsc" class="course-dsc">
-					<p class="nino-sectionDesc font_list" style="padding: 1%; text-align:left; color: #FFF;">
-						&nbsp &nbsp Let me talk you about the biggest smallest thing in the world. Yes you heard it right, it´s something that even with the most tiny of the dimensions, as a whole universe of information and complexity encrypted in its structure, and it´s called DNA. 
-						<br>&nbsp &nbsp Now imagine that you could amplified that structure just like when you zoom a picture in your phone: that´s what PCR is. PCR stands for Polymerase Chain Reaction, and it allows the amplification of specific fragments of DNA- DNA Targets- leading to the production of millions of copies of that one target sequence. 
+					<p class="nino-sectionDesc font_list"  style="padding: 3%; text-align:left; color: #FFF;  text-align:justify">
+						&nbsp &nbsp Let me talk you about the biggest smallest thing in the world. 
+						Yes you heard it right, it´s something that even with the most tiny of the 
+						dimensions, as a whole universe of information and complexity encrypted in its 
+						structure, and it´s called DNA. 
+
+						<br>&nbsp &nbsp Now imagine that you could amplified that structure just 
+						like when you zoom a picture in your phone: that´s what PCR is. PCR stands 
+						for Polymerase Chain Reaction, and it allows the amplification of specific 
+						fragments of DNA- DNA Targets- leading to the production of millions of copies 
+						of that one target sequence. 
 						
 						<br>&nbsp &nbsp But while zooming in in a macroscopic scale it’s a relatively easy experience, in a
 						microscopic level is a whole different story, it takes the participation of an entire
@@ -248,52 +259,66 @@
 		</div>
 	</section><!--/#nino-story-->
 
+
 	<!-- ABOUT LISBON ------------------------------------------------------------------------------->
 	<section id="lisbon">
-		
-		<div class="row">
-			<div class="column">
-				<dfigure class="container">
-					<img src="home/images/Lisbon/torre-belem.jpg" style="width: 90%;"></img>
-					<figurecaption class="bse_font">Tower of Belem</figurecaption>
-				</dfigure>
+		<h2 class="nino-sectionHeading" style="margin-bottom: 5%; ">
+			<span class="nino-subHeading"></span>
+			<br>Lisbon, the city of seven hills!
+		</h2>
+				<!-- Slideshow container -->
+<div class="slideshow-container">
 
-				<dfigure class="container">
-					<img src="home/images/Lisbon/alfama.jpg" style="width: 90%; "></img>
-					<figurecaption class="bse_font" style="caption-side: bottom;">Alfama district</figurecaption>
-				</dfigure>
-			</div>
-			<div class="column">
-				<dfigure class="container">
-					<img src="home/images/Lisbon/casa-bicos.jpg" style="width: 90%;"></img>
-					<figurecaption class="bse_font">Campo das Cebolas</figurecaption>
-				</dfigure>
+	<!-- Full-width images with number and caption text -->
+	<div class="mySlides fade">
+	  <div class="numbertext">1 / 5</div>
+	  <img src="home/images/Lisbon/torre-belem.jpg"" style="width:100%">
+	  <div class="text">Tower of Belem</div>
+	</div>
+  
+	<div class="mySlides fade">
+	  <div class="numbertext">2 / 5</div>
+	  <img src="home/images/Lisbon/alfama.jpg" style="width:100%">
+	  <div class="text">Alfama district</div>
+	</div>
+  
+	<div class="mySlides fade">
+		<div class="numbertext">3 / 5</div>
+		<img src="home/images/Lisbon/ponte-25-abril.jpg" style="width:100%">
+		<div class="text">Bridge 25 de Abril</div>
+	  </div>
 
-				<dfigure class="container">
-					<img src="home/images/Lisbon/ponte-25-abril.jpg" style="width: 90%; "></img>
-					<figurecaption style="caption-side: bottom;" class="bse_font">Bridge 25 de Abril</figurecaption>
-				</dfigure>
-			</div>
-			<div class="column">
-				<dfigure class="container">
-					<img src="home/images/Lisbon/castelo.jpg" style="width: 90%;"></img>
-					<figurecaption class="bse_font">Castle of Saint Jorge</figurecaption>
-				</dfigure>
+	  <div class="mySlides fade">
+		<div class="numbertext">4 / 5</div>
+		<img src="home/images/Lisbon/castelo.jpg" style="width:100%">
+		<div class="text">Castle of Saint Jorge</div>
+	  </div>
 
-				<dfigure class="container">
-					<img src="home/images/Lisbon/palacio-pena.jpg" style="width: 90%; "></img>
-					<figurecaption style="caption-side: bottom;" class="bse_font">Pena Palace</figurecaption>
-				</dfigure>
-			</div>
-		</div>
+	  <div class="mySlides fade">
+		<div class="numbertext">5 / 5</div>
+		<img src="home/images/Lisbon/palacio-pena.jpg" style="width:100%">
+		<div class="text">Pena Palace</div>
+	  </div>
+  
+	<!-- Next and previous buttons -->
+	<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+	<a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+  <br>
+  
+  <!-- The dots/circles -->
+  <div style="text-align:center">
+	<span class="dot" onclick="currentSlide(1)"></span>
+	<span class="dot" onclick="currentSlide(2)"></span>
+	<span class="dot" onclick="currentSlide(3)"></span>
+	<span class="dot" onclick="currentSlide(4)"></span>
+	<span class="dot" onclick="currentSlide(5)"></span>
+  </div>
 
 	</section>
 
 
 	<!-- Story About Us ----------------------------------------------------------------------------->
-
-
-
 
 	<section id="schedule_survival" style="background-color: rgba(0, 84, 163, 0.349); color: #fff; margin: 20px 50px; border-radius: 10px; ">
     <div class="container">
@@ -318,7 +343,59 @@
 
 	
 	
-	
+	<!-- FAQ ------------------------------------------------------------------------------->
+<section id="faq" style=" margin: 20px 50px;   ">
+
+	<div class="faq-header">Frequently Asked Questions</div>
+
+<div class="faq-content">
+  <div class="faq-question">
+    <input id="q1" type="checkbox" class="panel">
+    <div class="plus">+</div>
+    <label for="q1" class="panel-title">Who can apply for a BEST course?</label>
+    <div class="panel-content">Certain questions are better left unanswered</div>
+  </div>
+  
+  <div class="faq-question">
+    <input id="q2" type="checkbox" class="panel">
+    <div class="plus">+</div>
+    <label for="q2"  class="panel-title">Is there any language requirement?</label>
+    <div class="panel-content">Certain questions are better left unanswered</div>
+  </div>
+  
+  <div class="faq-question">
+    <input id="q3" type="checkbox" class="panel">
+    <div class="plus">+</div>
+    <label for="q3" class="panel-title">When is the application period?</label>
+    <div class="panel-content">Certain questions are better left &nbsp; <a href="https://en.wikipedia.org/wiki/The_Unanswered_Question" target="_blank">unanswered</a></div>
+  </div>
+
+  <div class="faq-question">
+    <input id="q4" type="checkbox" class="panel">
+    <div class="plus">+</div>
+    <label for="q4"  class="panel-title">How is the selection for the event done?</label>
+    <div class="panel-content">Certain questions are better left unanswered</div>
+  </div>
+
+
+  <div class="faq-question">
+    <input id="q5" type="checkbox" class="panel">
+    <div class="plus">+</div>
+    <label for="q5"  class="panel-title">How much does the course cost?</label>
+    <div class="panel-content">Certain questions are better left unanswered</div>
+  </div>
+
+
+  <div class="faq-question">
+    <input id="q6" type="checkbox" class="panel">
+    <div class="plus">+</div>
+    <label for="q6"  class="panel-title">What should I bring to a BEST course?</label>
+    <div class="panel-content">Certain questions are better left unanswered</div>
+  </div>
+
+
+</div>
+</section>
 	
 
 
@@ -527,38 +604,11 @@
 												
 
 	
-<!-- FAQ ------------------------------------------------------------------------------->
-<section id="faq" style=" margin: 20px 50px;   ">
 
-	<div class="faq-header">Frequently Asked Questions</div>
-
-<div class="faq-content">
-  <div class="faq-question">
-    <input id="q1" type="checkbox" class="panel">
-    <div class="plus">+</div>
-    <label for="q1" class="panel-title">What is the meaning of life?</label>
-    <div class="panel-content">42</div>
-  </div>
-  
-  <div class="faq-question">
-    <input id="q2" type="checkbox" class="panel">
-    <div class="plus">+</div>
-    <label for="q2"  class="panel-title">How much wood would a woodchuck chuck?</label>
-    <div class="panel-content">A woodchuck would chuck all the wood he could chuck, if a woodchuck could chuck wood!</div>
-  </div>
-  
-  <div class="faq-question">
-    <input id="q3" type="checkbox" class="panel">
-    <div class="plus">+</div>
-    <label for="q3" class="panel-title">What happens if Pinocchio says, "my nose will grow now"?</label>
-    <div class="panel-content">Certain questions are better left &nbsp; <a href="https://en.wikipedia.org/wiki/The_Unanswered_Question" target="_blank">unanswered</a></div>
-  </div>
-</div>
-</section>
 
 	<!-- ABOUT BEST LISBON ------------------------------------------------------------------------------->
 	<section id="aboutBest">
-		<h2 class="header">About BEST Lisbon</h2>
+		<h2 class="header" style="margin-right:-3.5px; margin-left:-3.7px; margin-top:-4px;">About BEST Lisbon</h2>
 		<div class="container">
 			<div class="row">
 				<div class="col-md-5">
@@ -618,6 +668,7 @@
 	<script type="text/javascript" src="home/js/jquery.hoverdir.js"></script>
 	<script type="text/javascript" src="home/js/modernizr.custom.97074.js"></script>
 	<script type="text/javascript" src="home/js/jquery.mCustomScrollbar.concat.min.js"></script>
+	<script type="text/javascript" src="home/js/lisboa_img.js"></script>
 	<script type="text/javascript" src="home/js/unslider-min.js"></script>
 	<script type="text/javascript" src="home/js/template.js"></script>
 	<script src="js/alertify.min.js"></script>
