@@ -473,18 +473,20 @@ header:after {
 	background: rgba(255,255,255,0);
 	border: none;
 	border-radius: 0;
-	padding-top: 5px;
-	padding-bottom: 5px;
+	width: 100%;
+	padding-top: 1px;
+	padding-bottom: 1px;
 	font-size: 14px;
 }
 
 #nino-navbar .navbar-brand {
 	background: url(../images/banner/BESTLisbon.png) no-repeat center center / cover; /*logo_BEST_Lisbon_.png*/
+	background-size: 65px;
 	width: 120px;
 	height: 30px;
 	color: #fff;
 	font-weight: 700;
-	font-size: 20px;
+	font-size: 14px;
 }
 
 #nino-navbar .navbar-nav > li > a {
@@ -536,6 +538,7 @@ header:after {
 /* ----------- FIXED NAVBAR WITH ANIMATE ----------- */
 .nino-fixed-nav #nino-navbar {
 	position: fixed;
+	margin-top: -25px;
 	top: 0;
 	left: 0;
     width: 100%;
