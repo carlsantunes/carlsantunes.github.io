@@ -27,7 +27,7 @@ jQuery(function($) {
 	});
 
 	/* =============== MAKE MAIN MENU STICKED ON TOP WHEN SCROLL =============== */
-	/*$(window).scroll(function () {
+/*	$(window).scroll(function () {
 		if ($(this).scrollTop() == $('#nino-header').height() || $(this).scrollTop() > $('#nino-header').height()) {
 			$('body').addClass("nino-fixed-nav");
 			$('body').css('padding-top', $('#nino-navbar').height() + 'px');
